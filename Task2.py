@@ -11,7 +11,7 @@ arr = input("Введите последовательность веществ�
 for i in range( len(arr) ):
     arr[i]=float(arr[i])
 
-min_num = arr [0]
+min_num = 1
 max_num = 0
 
 for n in arr:
@@ -20,4 +20,4 @@ for n in arr:
         if n > max_num: max_num = n
         if n < min_num: min_num = n
 
-print (round((max_num-min_num), 2))
+print ( round( ( max_num - min_num ), 2 ) )
